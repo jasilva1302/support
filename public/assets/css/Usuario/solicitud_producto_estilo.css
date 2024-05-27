@@ -1,0 +1,25 @@
+.box_titulo{
+    margin-bottom:50px;
+}
+
+.box_nueva_solicitud .col .titulo_uno{
+    text-align:center;
+    margin-bottom:40px;
+    
+}
+
+.box_nueva_solicitud .btn{
+    margin:5px;
+    width:70%;
+}
+
+.box_nueva_solicitud ul{
+    line-height:2;
+}
+.box_nueva_solicitud ul li:hover{
+text-decoration: underline;
+    cursor:pointer;
+}
+
+
+

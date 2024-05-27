@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.box_nav{
+    background-color:#fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding:10px;
+    z-index:1000;
+}
+.box_nav img{
+    width:180px;
+}
+
+.titulo_uno{
+    color:#b61818;
+    font-size:20px;
+}
+
+.box_titulo{
+  
+    color:#5b5b5b;
+    text-align:center;
+}
+
+.col_borde_derecha{
+
+    margin:2px;
+    border-right:2px solid #c1c1c1;
+    
+    }
+
+    .txt_verde{
+        color:#31b519;
+    }
+

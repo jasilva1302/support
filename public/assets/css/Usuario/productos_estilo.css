@@ -1,0 +1,89 @@
+/* Estilos para los botones */
+.btn-editar {
+    background-image: url('assets/img/editar.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.btn-eliminar {
+    background-image: url('/img/eliminar.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.btn-crear {
+    background-image: url('/img/crear.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.btn-text-hidden {
+    text-indent: -9999px;
+}
+
+/* Estilos para el contenedor personalizado */
+.container-custom {
+    border: 2px solid red;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+/* Estilos para la tabla personalizada */
+.table-custom {
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Estilos para el contenido modal personalizado */
+.modal-content-custom {
+    border: 1px solid red;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Estilos para el botón de crear producto */
+.btn-crear-producto {
+    background-color: #ef3945;
+    color: white;
+    border: none;
+}
+
+.btn-crear-producto:hover {
+    background-color: darkred;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}

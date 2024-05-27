@@ -1,0 +1,93 @@
+body {
+    background-color: #c8c5c54a;
+}
+
+.box_contenedor_general {
+    width: 85%;
+}
+
+.box_container_grafica .col {
+    padding: 10px;
+    margin: 5px;
+    background-color: #fff;
+}
+
+.box_grafica {
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.table {
+    font-size: 12px;
+}
+
+.table-danger {
+    text-align: center;
+}
+
+.table-danger th {
+    color: #8b0000;
+}
+
+.box_texto {
+    height: 120px;
+    font-size: 15px;
+}
+
+.box_completo {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 823px) {
+    .box_contenedor_general {
+        width: 80%;
+        margin: 70px;
+    }
+
+    .box_completo {
+        display: block;
+    }
+
+    .table {
+        font-size: 10px;
+    }
+
+    .col_responsive {
+        width: 100%;
+    }
+
+    /* Estilos personalizados para la paginación */
+    .pagination .page-item:first-child .page-link span,
+    .pagination .page-item:last-child .page-link span {
+        display: none;
+    }
+}
+
+tbody tr:hover {
+    background-color: red; /* Cambiar el color de fondo al pasar el mouse */
+    color: rgb(255, 255, 255); /* Cambiar el color del texto al pasar el mouse */
+    font-weight: bold; /* Hacer el texto en negrita al pasar el mouse */
+}
+
+/* Estilo para reducir los márgenes entre las tablas */
+.box_contenedor_general .box_container_grafica {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.box_contenedor_general .box_container_grafica .row {
+    margin-bottom: 10px;
+}
+
+.box_contenedor_general .box_container_grafica h2,
+.box_contenedor_general .box_container_grafica p,
+.box_contenedor_general .box_container_grafica table {
+    margin-bottom: 10px;
+}
+
+.box_contenedor_general .linea_titulo {
+    margin-bottom: 5px;
+}

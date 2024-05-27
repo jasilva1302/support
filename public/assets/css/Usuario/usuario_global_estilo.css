@@ -1,0 +1,116 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* menu */
+.box_nav{
+    background-color:#ef3945;
+    height:50px;
+    padding:5px;
+}
+.box_nav img{
+    height:40px;
+    width:120px;
+}
+
+.menu_lateral{
+    width: 50px;
+    height: 100%;
+    background-color: #595959;
+    padding: 40px 0px 0px 0px;
+    box-shadow: 3px 0 0 #ef3945;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+    z-index:100;
+}
+
+nav.expandir{
+    width: 300px;
+}
+
+.btn_expandir{
+    margin-top:36px;
+    width: 100%;
+    text-align:center;
+    line-height:50px;
+    background:#ef3945;
+    cursor:pointer;
+    
+}
+.btn_expandir > i{
+    color:#fff;
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+.menu_lateral ul{
+    height: 100%;
+    list-style-type:none;
+
+}
+
+.menu_lateral ul li.item_menu{
+    transition: .2s;
+    margin-left:-32px;
+    overflow: hidden;
+
+
+}
+
+.menu_lateral ul li.item_menu:hover{
+    background-color: #c20000;
+}
+
+.menu_lateral ul li.item_menu a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 0px;
+
+    /* line-height: 40px; */
+}
+
+ul li.item_menu a .txt_link{
+    margin-left: 30px;
+}
+
+.menu_lateral.btn_expandir .txt_link{
+    margin-left: 30px;
+}
+
+/* Fin codigo Menu */
+.box_contenedor_general{
+    width:80%;
+    /* background-color:#6d6d6e; */
+    margin:auto;
+    margin-top:60px;
+    padding:10px;
+}
+.box_btn_escalar{
+    width:80%;
+    margin:auto !important;
+}
+.box_btn_escalar .box_btn_solicitud{
+margin:50px;
+}
+
+.titulo_uno {
+    color: #d20;
+    padding:10px 0px;
+}
+
+
+.btn_abajo{
+    margin-top: 10px;
+}
+.linea_titulo{
+    width:70px;
+    border:2px solid #ef3945;
+    margin-bottom: 20px;
+}
+p{
+    text-align:justify;
+}

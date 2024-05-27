@@ -1,0 +1,38 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: url(../../Img/img_1.PNG) no-repeat 50% 50%;
+    display: table;
+    background-size: cover;
+}
+
+.container_transparete{
+    width: 100%;
+    height: 100%;
+    background-color:#7c000099;
+    
+}
+
+.box_nav{
+    display:none;
+}
+
+.box_login{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 400px;
+    background-color:#ffffff;
+    padding:40px;
+    border-radius:5px;
+}
+.box_login h2{
+    text-align:center;
+    color:#d20000;
+}
+.btn-danger{
+    width:100%;
+}

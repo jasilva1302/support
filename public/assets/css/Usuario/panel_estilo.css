@@ -1,0 +1,43 @@
+
+.box_formulario{
+    width:800px;
+    margin:auto;
+}
+
+.box_btn_solicitud {
+    margin-top: 40px;
+}
+
+.box_btn_solicitud button {
+    width: 150px;
+    font-size: 20px;
+    /* background-color:#0019ff; */
+}
+
+body {
+    background-image: url('assets/img/img_7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mensaje_bienvenida {
+    text-align: center;
+    margin-top: 20px; /* Adjust the top margin as needed */
+    font-weight: bold;
+}
+
+.mensaje_bienvenida h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.marca_agua {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.2; /* Puedes ajustar la opacidad según tus preferencias */
+    pointer-events: none; /* Evita que la marca de agua interfiera con la interacción del usuario */
+    z-index: -1; /* Asegura que la marca de agua esté detrás del contenido */
+}

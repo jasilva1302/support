@@ -1,0 +1,56 @@
+/* Estilos para el modal de detalles del cliente */
+.modal-content {
+    background-color: white; /* Cambiar el color de fondo del modal */
+    border-radius: 15px; /* Redondear los bordes del modal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agregar sombra al modal */
+}
+
+.modal-header {
+    background-color: #ffffff; /* Cambiar el color de fondo del encabezado del modal */
+    color: rgb(0, 0, 0); /* Cambiar el color del texto del encabezado del modal */
+    text-align: center; /* Centrar el texto en el encabezado del modal */
+    border-top-left-radius: 50px; /* Redondear solo la esquina superior izquierda */
+    border-top-right-radius: 50px; /* Redondear solo la esquina superior derecha */
+    border: 2px solid rgb(136, 123, 123);
+}
+
+.modal-body {
+    background-color: rgb(255, 255, 255); /* Cambiar el color de fondo del cuerpo del modal */
+    color: rgb(0, 0, 0); /* Cambiar el color del texto del cuerpo del modal */
+    text-align: center; /* Centrar el texto en el cuerpo del modal */
+    border: 2px solid rgb(136, 123, 123);
+}
+
+.modal-body img {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+}
+
+.modal-body p {
+    display: flex;
+    align-items: center;
+}
+
+.modal-body strong {
+    margin-left: 8px;
+}
+
+.modal-footer {
+    background-color: #ffffff; /* Cambiar el color de fondo del pie del modal */
+    text-align: center; /* Centrar el botón en el pie del modal */
+    border-bottom-left-radius: 50px; /* Redondear solo la esquina inferior izquierda */
+    border-bottom-right-radius: 50px; /* Redondear solo la esquina inferior derecha */
+    border: 2px solid rgb(136, 123, 123);
+}
+.modal-footer .btn-secondary {
+    background-color: rgb(245, 60, 60); /* Cambiar el color de fondo del botón Cerrar */
+    color: rgb(255, 255, 255); /* Cambiar el color del texto del botón Cerrar */
+}
+
+tbody tr:hover {
+    background-color: rgb(255, 255, 255); /* Cambiar el color de fondo al pasar el mouse */
+    color: rgb(255, 255, 255); /* Cambiar el color del texto al pasar el mouse */
+    font-weight: bold; /* Hacer el texto en negrita al pasar el mouse */
+    
+}

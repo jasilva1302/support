@@ -1,0 +1,79 @@
+.formulario-recuadro {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    border: 100px solid #ff0101; /* Color del borde */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 1 1 100px rgba(0, 0, 0, 0.425); /* Sombra */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+body {
+    background-image: url('../img/img_7.PNG'); /* Ajustar la ruta si es necesario */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+.box_formulario {
+    background-color: #ffffff; /* Fondo rojo semitransparente */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px auto; /* Centrar la caja */
+    max-width: 800px; /* Ancho máximo */
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1); /* Sombra */
+    color: rgb(0, 0, 0); /* Color del texto */
+}
+
+.box_formulario label,
+.box_formulario input,
+.box_formulario select,
+.box_formulario button {
+    color: rgb(0, 0, 0); /* Color del texto en los elementos del formulario */
+}
+
+.box_formulario .form-control {
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo blanco semitransparente para los inputs */
+    color: rgb(0, 0, 0); /* Color del texto en los inputs */
+    border: 1px solid #fc0000; /* Color del borde */
+}
+
+.box_formulario .form-control:disabled {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semitransparente para inputs deshabilitados */
+    color: rgb(0, 0, 0); /* Color del texto en inputs deshabilitados */
+}
+
+.box_formulario select {
+    color: black; /* Color del texto en los select */
+}
+
+.titulo_uno {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0); /* Color del texto en el título */
+}
+
+h2.titulo_uno .icon {
+    margin-right: 1px; /* Ajustar el espacio entre el icono y el texto */
+    height: 2em; /* Ajustar el tamaño del icono */
+    width: auto; /* Mantener la proporción del icono */
+    color: rgb(0, 0, 0); /* Color del icono */
+}
+
+.alerta {
+    text-align: center;
+}
+
+.box_btn_solicitud {
+    margin-top: 20px;
+}
+
+.spacing-top {
+    margin-top: 30px; /* Ajustar el espacio superior según sea necesario */
+}
+
+.btn_consultar_cliente button {
+    background-color: white; /* Color de fondo del botón */
+    color: rgb(255, 0, 0); /* Color del texto del botón */
+    border: 1px solid #ccc; /* Borde del botón */
+}

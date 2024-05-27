@@ -1,0 +1,21 @@
+.box_contenedor_general{
+    display:flex;
+    /* background-color:blue; */
+    
+   
+}
+.box_estadisticas{
+    /* background-color:#c88383; */
+    width:100%;
+    padding:10px;
+    margin:5px;
+    
+}
+
+.box_contenedor_general{
+        margin-top:5px;
+}
+
+.box_titulo{
+    margin-top:90px;   
+}

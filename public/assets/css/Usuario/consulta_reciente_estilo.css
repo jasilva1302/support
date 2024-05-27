@@ -1,0 +1,29 @@
+.accordion{
+    background:#fff;
+    padding:0;
+}
+.accordion-button{
+    background:#ef3945 !important;
+    color:#fff !important;
+}
+
+.formulario-recuadro {
+    background-color: #ef3945ef; /* Fondo blanco semitransparente */
+    border: 1px solid #eeeeee; /* Color del borde */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Estilos para resaltar la fila al pasar el mouse */
+.table tbody tr:hover {
+    background-color: rgba(239, 57, 69, 0.3); /* Fondo rojo semitransparente */
+    font-weight: bold; /* Texto en negrita */
+    color: red; /* Texto rojo */
+    cursor: pointer; /* Cambia el cursor a un puntero */
+}

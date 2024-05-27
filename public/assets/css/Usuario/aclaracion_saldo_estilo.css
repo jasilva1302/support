@@ -1,0 +1,28 @@
+.box_titulo{
+    margin-bottom:50px;
+}
+
+.box_nueva_solicitud .col .titulo_uno{
+    text-align:center;
+    margin-bottom:40px;
+    
+}
+
+.box_nueva_solicitud .btn{
+    margin:5px;
+    width:70%;
+}
+
+.mt-3 h2{
+    font-size:25px;
+}
+.mt-3 h3{
+    font-size:15px;
+}
+.box_btn_escalar{
+    width:80%;
+    margin:auto !important;
+}
+.box_btn_escalar .box_btn_solicitud{
+margin:50px;
+}
